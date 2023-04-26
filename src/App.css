@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: auto;
+  position: relative;
+}
+
+.categories {
+  display: flex;
+  
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  margin:  auto;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+table .header {
+  background-color: #4caf50;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding: 10px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+}
+
+
+.button {
+  border: none;
+  outline: none;
+  font-size: 11px;
+  font-family: "Quicksand", sans-serif;
+  color: #f44336;
+  padding: 3px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #f44336;
+  background-color: transparent;
+}
+
+.button:active {
+  border: 1px solid blue;
+}
+
+.card-image {
+  display: inline-block;
+  width:4rem;
+  height: 4rem;
+}
+
+.image {
+  width: 4rem;
+}
+
+.search {
+  display: flex;
+  align-items: flex-end;
+}
+
+.viewData{
+  position: absolute;
+  width: 50vw;
+  height: 70vh;
+  top:20%;
+  left: 20%;
+}
+
+.categories {
+  display: flex;
+  gap:1rem;
+  margin-bottom: 2rem;
+}
+
+.categories a {
+  font-size: 22px;
+  font-weight:bold;
+  color: blue;
+}
+
+.categories a:hover {
+  color: #4caf50;
+}
